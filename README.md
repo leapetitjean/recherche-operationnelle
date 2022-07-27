@@ -4,9 +4,9 @@
  Le projet dispose d'une visualisation, le fichier `main.py` sert à lancer l'interface.
  
  Plusieurs algorithmes de recherche de solution initiale sont disponibles :
+ * aléatoire
  * plus proche voisin
  * insertion loin
- * 
  
  Plusieurs algorithmes d'amélioration, recherche locale :
  * 2-opt
