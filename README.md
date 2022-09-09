@@ -21,3 +21,26 @@
  * sélection roulette (aléatoire avec des probabilités liées au coût)
  * sélection des meilleurs
  * sélection par tournois
+
+# Operations Research - Travelling Salesman Problem
+
+Second year project at the Institute of Technology that solves the travelling salesman problem on a specific instance. The project has an interface and the `main.py` file launches it. 
+
+Several algorithms for finding the first solution are available :
+* random
+* closestNeighbors
+* farthestInsertion
+
+Several local search algortihms are available :
+* 2-opt
+* exchange of consecutive cities
+* exchange of consecutive cities which gives the best cost
+* exchange of non-consecutive cities
+* exchange of non-consecutive cities which gives the best cost
+
+The largest algorithm is the genetic algorithm.
+It has several population selection mechanisms :
+* random selection
+* roulette selection
+* best-of selection
+* tournament selection
